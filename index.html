@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Mannar Mannan - IT Consultant and Support Engineer.">
   <title>Mannar Mannan | IT Consultant</title>
+  <meta name="description" content="Portfolio of Mannar Mannan - IT Consultant and Support Engineer.">
+  <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <div class="container nav-container">
-      <h1>Mannar Mannan</h1>
-      <ul>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Mannar Mannan Subramanian</h1>
+      <p class="site-subtitle">IT Consultant | End User Computing (EUC)</p> 
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <div class="container">
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -26,76 +33,88 @@
 
   <main class="container">
     <section id="about">
-      <h2>About Me</h2>
-      <p>Experienced IT Support Engineer with a strong background in modern workplace environments. Skilled in Microsoft 365, Intune, Active Directory, and secure infrastructure operations across enterprise-scale clients.</p>
+      <h2>About</h2>
+      <p>I'm an experienced IT Support Engineer with a strong background in End User Computing (EUC). I enjoy solving problems, supporting end users, and delivering smooth and secure technical experiences.</p>
+      <p>I’m known for my calm, solution-focused approach in high-pressure situations, strong troubleshooting skills, and a genuine passion for learning new technologies. Over the years, I’ve worked across enterprise and government environments with tools like Microsoft 365, Intune, Azure AD, and endpoint management systems.</p>
     </section>
 
     <section id="skills">
-      <h2>Skills</h2>
-      <div class="skill-tags">
-        <span>Level 2/3 Support</span>
-        <span>Windows / Mac / Linux</span>
-        <span>Microsoft 365 / Azure</span>
-        <span>Active Directory / GPO</span>
-        <span>Intune / JAMF / SCCM</span>
-        <span>Networking / VPN / DNS / DHCP</span>
-        <span>PowerShell / Bash</span>
-        <span>ITIL / ServiceNow</span>
-      </div>
-    </section>
+  <h2>Skills</h2>
+  <div class="skill-section">
+    <h3>IT Support & Troubleshooting</h3>
+    <ul class="skill-list">
+      <li>Level 2/3 Desktop Support</li>
+      <li>Windows, Mac, Linux OS</li>
+      <li>Remote Tools: TeamViewer, AnyDesk, LogMeIn</li>
+    </ul>
+
+    <h3>Endpoint & Device Management</h3>
+    <ul class="skill-list">
+      <li>Microsoft Intune</li>
+      <li>Endpoint Configuration Manager (SCCM)</li>
+      <li>JAMF, SOE Imaging, Deployment</li>
+    </ul>
+
+    <h3>Cloud & Identity Platforms</h3>
+    <ul class="skill-list">
+      <li>Microsoft 365, Exchange Admin</li>
+      <li>Active Directory, Group Policy</li>
+      <li>Azure, AWS (basic)</li>
+    </ul>
+
+    <h3>Networking & Security</h3>
+    <ul class="skill-list">
+      <li>VPN, DNS, DHCP Configuration</li>
+      <li>Basic Threat Mitigation & Encryption</li>
+      <li>Cybersecurity Awareness</li>
+    </ul>
+
+    <h3>Service Delivery</h3>
+    <ul class="skill-list">
+      <li>ITIL Framework (Incident/Problem/Change)</li>
+      <li>ServiceNow & Ticketing Tools</li>
+      <li>Onboarding/Offboarding & End User Training</li>
+    </ul>
+  </div>
+</section>
 
     <section id="experience">
       <h2>Experience</h2>
-      <div class="exp-entry">
-        <div class="exp-header">
-          <strong>NSW Department of Education</strong>
-          <span class="exp-date">2025</span>
-        </div>
-        <div class="exp-role">IT Support Technician</div>
+      <div class="entry">
+        <strong>NSW Department of Education</strong>
+        <span>IT Support Technician · 2025</span>
       </div>
-      <div class="exp-entry">
-        <div class="exp-header">
-          <strong>Greater Cities Commission</strong>
-          <span class="exp-date">2022</span>
-        </div>
-        <div class="exp-role">Technical Support Officer</div>
+      <div class="entry">
+        <strong>Greater Cities Commission</strong>
+        <span>Technical Support Officer · 2022</span>
       </div>
-      <div class="exp-entry">
-        <div class="exp-header">
-          <strong>Veolia</strong>
-          <span class="exp-date">2021 – 2022</span>
-        </div>
-        <div class="exp-role">IT Support Engineer</div>
+      <div class="entry">
+        <strong>Veolia</strong>
+        <span>IT Support Engineer · 2021 – 2022</span>
       </div>
-      <div class="exp-entry">
-        <div class="exp-header">
-          <strong>Emirates</strong>
-          <span class="exp-date">2017 – 2018</span>
-        </div>
-        <div class="exp-role">IT Consultant</div>
+      <div class="entry">
+        <strong>Emirates</strong>
+        <span>IT Consultant · 2017 – 2018</span>
       </div>
-      <div class="exp-entry">
-        <div class="exp-header">
-          <strong>Virgin Australia</strong>
-          <span class="exp-date">2015 – 2017</span>
-        </div>
-        <div class="exp-role">IT Support Technician</div>
+      <div class="entry">
+        <strong>Virgin Australia</strong>
+        <span>IT Support Technician · 2015 – 2017</span>
       </div>
     </section>
 
     <section id="education">
       <h2>Education & Certifications</h2>
-      <div class="edu-entry">
+      <div class="entry">
         <strong>Master of Information Technology</strong>
-        <span class="edu-meta">Swinburne University – 2015</span>
+        <span>Swinburne University · 2015</span>
       </div>
-      <div class="edu-entry">
+      <div class="entry">
         <strong>Bachelor of Computer Science</strong>
-        <span class="edu-meta">Anna University – 2011</span>
+        <span>Anna University · 2011</span>
       </div>
-      <div class="edu-entry">
+      <div class="entry">
         <strong>Certifications</strong>
-        <span class="edu-meta">Cybersecurity (Udemy), Generative AI (TAFE NSW)</span>
+        <span>Cybersecurity (Udemy), Generative AI (TAFE NSW)</span>
       </div>
     </section>
 
@@ -106,7 +125,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="container">
       <p>© 2025 Mannar Mannan</p>
     </div>
