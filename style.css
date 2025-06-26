@@ -1,34 +1,91 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Inter', sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
 }
-header, section, footer {
-    padding: 20px;
-    margin: auto;
-    max-width: 800px;
-    background: #fff;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
-header h1 {
-    margin: 0 0 10px;
+
+nav {
+  background: #343a40;
+  color: white;
 }
-header p, section p, footer p {
-    margin: 5px 0;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-a {
-    color: #007acc;
-    text-decoration: none;
+
+nav h1 {
+  font-size: 1.5rem;
 }
-a:hover {
-    text-decoration: underline;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 0;
 }
-ul {
-    padding-left: 20px;
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 5px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tags span {
+  background: #e9ecef;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.badge {
+  background: #dee2e6;
+  color: #495057;
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+footer {
+  background: #dee2e6;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
 }
